@@ -4,7 +4,7 @@
 include Makefile.srcs
 
 # General configuration variables:
-DESTDIR ?= /
+DESTDIR ?= 
 INCDIR ?= $(DESTDIR)/usr/include
 INSTALLDIR ?= $(DESTDIR)/usr/lib
 
