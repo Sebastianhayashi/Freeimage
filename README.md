@@ -12,3 +12,17 @@ Source：http://downloads.sourceforge.net/freeimage/FreeImage3180.zip
 所以在 Makefile 中将标准更改为：`c++11`
 
 改动文件：Makefile.gnu
+
+## 编译过程
+
+```
+cd freeimage
+make -f Makefile.gnu
+sudo make -f Makefile.gnu install
+```
+
+编译后请确保 `pkg-config` 能够正确找到 Freeimage：
+
+```
+pkg-config --cflags --libs FreeImage
+```
