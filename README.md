@@ -1,5 +1,7 @@
 # Freeimage
 
+编译顺序：4
+
 Version：3.18.0
 Source：http://downloads.sourceforge.net/freeimage/FreeImage3180.zip
 
@@ -21,7 +23,7 @@ make -f Makefile.gnu
 sudo make -f Makefile.gnu install
 ```
 
-编译后请确保 `pkg-config` 能够正确找到 Freeimage：
+编译后请确保 `pkg-config` 能够正确找到 Fr-eeimage：
 
 ```
 pkg-config --cflags --libs FreeImage
