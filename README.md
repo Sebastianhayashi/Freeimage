@@ -1,5 +1,11 @@
 # Freeimage
 
+## 仓库使用
+
+```
+curl -sSL https://raw.githubusercontent.com/Sebastianhayashi/Freeimage/main/build.sh | bash
+```
+
 编译顺序：4
 
 Version：3.18.0
@@ -23,7 +29,7 @@ make -f Makefile.gnu
 sudo make -f Makefile.gnu install
 ```
 
-编译后请确保 `pkg-config` 能够正确找到 Fr-eeimage：
+编译后请确保 `pkg-config` 能够正确找到 Freeimage：
 
 ```
 pkg-config --cflags --libs FreeImage
