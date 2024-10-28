@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Step 1: 设置 PKG_CONFIG_PATH
-export PKG_CONFIG_PATH=/usr/lib/pkgconfig
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig
 echo "PKG_CONFIG_PATH set to $PKG_CONFIG_PATH"
 
 # Step 2: 检查是否已克隆仓库
